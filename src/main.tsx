@@ -17,7 +17,6 @@ import '@fontsource-variable/jetbrains-mono';
 import * as ReactDOM from 'react-dom/client'
 import App from './App.tsx';
 
-const rootElement = document.getElementById('root')
 
 const theme = extendTheme({
   fonts: {
@@ -26,7 +25,7 @@ const theme = extendTheme({
   },
 })
 
-ReactDOM.createRoot(rootElement).render(
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
       <App />

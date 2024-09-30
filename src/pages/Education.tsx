@@ -1,21 +1,13 @@
-import { Box, Text, Grid, GridItem, keyframes, VStack, List,
+import { Box, Text, Grid, GridItem, keyframes, VStack,
     ListItem,
-    ListIcon,
-    OrderedList,
-    UnorderedList, Stack, Image, Divider} from '@chakra-ui/react';
+    UnorderedList, Image, Divider} from '@chakra-ui/react';
 import Navbar from '../components/Navbar';
-import TextAndPic from '../components/TextAndPic';
 
 function Education() {
   const fadeIn = keyframes`
     from { opacity: 0; }
     to { opacity: 1; }
   `;
-//   animation={`${fadeIn} 1.5s ease-in-out`}
-
-  let intro = "Hey there! My name is Raagul Sundaralingam, and I'm a 4th year CS student at Ohio State. Throughout my life, I've gained a passion and curiosity for math and engineering, which is why I decided to become a software engineer."
-  let education = "I'm currently completing my 4th and final year at Ohio State. I will be graduating in May 2025 with a Bachelors of Science in Computer Science and Engineering with a focus on AI. I will also be receiving a minor in Math."
-  let experience = "I'm a undergraduate research assistant at a AI Research lab at Ohio State under Skyler Cranmer. I used to be a software developer for a nonprofit startup called SmileChild."
 
   return (
     <Box h="100vh" w="100vw" bg="gray.900" overflow="hidden">

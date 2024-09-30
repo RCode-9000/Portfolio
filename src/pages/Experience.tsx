@@ -1,8 +1,6 @@
-import { Box, Text, Grid, GridItem, keyframes, VStack, List,
+import { Box, Text, Grid, GridItem, keyframes, VStack,
     ListItem,
-    ListIcon,
-    OrderedList,
-    UnorderedList, Stack, Image, Link, AspectRatio, Divider} from '@chakra-ui/react';
+    UnorderedList, Image, Link, Divider} from '@chakra-ui/react';
 import Navbar from '../components/Navbar';
 function Experience() {
   const fadeIn = keyframes`

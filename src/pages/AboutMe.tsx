@@ -1,10 +1,7 @@
-import { Box, Text, Grid, GridItem, keyframes, VStack, List,
+import { Box, Text, Grid, GridItem, keyframes, VStack,
     ListItem,
-    ListIcon,
-    OrderedList,
-    UnorderedList, Stack, Image} from '@chakra-ui/react';
+    UnorderedList, Image} from '@chakra-ui/react';
 import Navbar from '../components/Navbar';
-import TextAndPic from '../components/TextAndPic';
 
 function AboutMe() {
   const fadeIn = keyframes`
@@ -12,8 +9,6 @@ function AboutMe() {
     to { opacity: 1; }
   `;
 //   animation={`${fadeIn} 1.5s ease-in-out`}
-
-  let intro = "Hey there! My name is Raagul Sundaralingam, and I'm a 4th year CS student at Ohio State. Throughout my life, I've gained a passion and curiosity for math and engineering, which is why I decided to become a software engineer."
 
   return (
     <Box h="100vh" w="100vw" bg="gray.900" overflow="hidden">
